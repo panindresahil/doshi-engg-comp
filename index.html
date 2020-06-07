@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+  crossorigin="anonymous">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- css animations -->
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <title>Doshi &mdash; Engg </title>
+</head>
+<body>
+  <!-- Home -->
+  <header id="section">
+    <nav class="navbar navbar-expand-lg fixed-top px-4">
+      <a href="#" class="navbar-brand">Brand Name</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar nav mx-auto text-capitalize">
+          <li class="nav-item active">
+            <a href="#" class="nav-link d-flex">
+              <span class="nav-icon"><i class="fas fa-home mx-2"></i></span>
+              <span>home</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="#about" class="nav-link d-flex">
+              <span><i class="fas fa-exclamation-circle mx-2"></i></span>
+              <span>about us</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="#products" class="nav-link d-flex">
+              <span><i class="fas fa-shopping-cart mx-2"></i></span>
+              <span> products</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#clients" class="nav-link d-flex">
+              <span><i class="fas fa-user-circle mx-2"></i></span>
+              <span></span> clients</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-us" class="nav-link d-flex">
+              <span><i class="fas fa-phone mx-2"></i></span>
+              <span> contact us</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row max-height justify-content-between align-items-center">
+        <div class="col-10 mx-auto text-center">
+          <h1 class=" banner-title text-capitalize section-heading">
+            doshi engineering works and group companies
+          </h1>
+        </div>  
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+<section id="about">
+    <div class="container-fluid py-4">
+      <h1 class="  text-uppercase text-center section-heading w-100">
+         <span>  <strong>about us</strong> </span>
+      </h1>
+      <div class="row  justify-content-between align-items-center py-4">
+        <div class="col col-sm-12 col-lg-6 mx-auto text-left my-3">
+          <p class="text-capitalize about-text">
+            We introduce ourselves as one of the leading Fabricators & Exporters of Chemical Skid mounted Plants and process equipments.</p>
+          <p class="text-capitalize about-text">  Viz: REACTION VESSEL, PRESSURE VESSELS, HEAT EXCHANGERS, CONDENSERS, DISTILLATION COLUMNS AND STILLS, STORAGE TANKS, AUTOCLAVES, 
+            BLENDERS, MEASURING VESSELS, ETC.SINCE 1960.
+          </p>
+          <p class="text-capitalize about-text">
+            We have made critical equipments for various Clients. We have fabrication facilities with our group companies with 100 workmen and with handling facility of 10 tons to 50 M.T.E.O.T. crane and large open area. We have made vessels weighing up to 50 M.T.
+          </p>
+          <p class="text-capitalize about-text">We are approved for fabrication of Unfired Pressure Vessels under SMPV (U) Rule 1981.</li>
+          </p>
+          <p class="text-capitalize about-text">
+            OUR GROUP COMPANIES ARE AS UNDER:
+            <li>M/S. DOSHI FABRICATORS PVT.LTD BOISER</li>
+            <li>M/S. SSJ ENGINEERS & EXPORTERS PVT.LTD. BOISER</li>
+          </p>
+          <a href="services.html"><button type="button" class="btn  btn-lg"><span class="button-text text-capitalize text-center"> read more.. </span></button></a>        </div>
+          <div class="col-10 col-lg-6 mx-auto text-center my-3">
+          <div class="img-container">
+            <img src="images/industrial_img_1.jpg" class="img-fluid about-img" height="500px" width="500px">
+          </div>
+        </div>  
+      </div>
+    </div>
+</section>
+  <!-- Products -->
+  <section id="products">
+    <h1 class="text-uppercase text-center mx-auto py-5 section-heading"><strong>products</strong></h1>
+      <div class="row py-3">
+        <div class="col-lg-8 mx-auto d-flex justify-content-around sortBtn flex-wrap">
+          <a onclick="pro1()" class="btn-black text-uppercase filter-btn m-2" data-filter="all">SOLVENT RECOVERY PLANT</a>
+          <a onclick="pro2()" class="btn-black text-uppercase filter-btn m-2" data-filter="all">PVA PLANT</a>
+          <a onclick="pro3()" class="btn-black text-uppercase filter-btn m-2" data-filter="all">REACTION KETTLE</a>
+          <a onclick="pro4()" class="btn-black text-uppercase filter-btn m-2" data-filter="all">CONDENSER</a>
+          <a onclick="pro5()" class="btn-black text-uppercase filter-btn m-2" data-filter="all">DISTILLATION COLUMN</a>
+        </div>
+      </div>
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-10 col-lg-6 mx-auto align-items-center py-3">
+          <div id="product-img" class="text-center">
+            <img src="images/industrial_img_2.jpg" class="product-img" width="400px" height="400px" alt="">
+          </div>
+        </div>
+        <div class="col-10 col-lg-6 mx-auto align-items-center py-3">
+          <div id="product-info" class="text-capitalize text-center">
+            <img src="images/info1.PNG" class="product-img" width="400px" height="400px" alt="">
+          </div>
+        </div>
+      </div>    
+    </div>      
+    </div>
+  </section>
+  <!-- clients  -->
+  <section id="clients">
+    <div class="container-fluid py-5">
+      <h1 class="text-uppercase text-center mx-auto py-5 section-heading"><strong>our clients</strong></h1>
+      <div class="row">
+        <div class="col-10 col-lg-6 mx-auto align-items-center py-3">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner client-car">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/clients1.PNG" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/clients3.PNG" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/clients5.PNG" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/clients7.PNG" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-6 mx-auto align-items-center py-3">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner client-car">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/clients2.PNG" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/clients4.PNG" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/clients6.PNG" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/clients8.PNG" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Contact Us -->
+ <footer id="contact-us" class="py-5">
+  <h3 class="my-3 text-center section-heading"><strong class="text-uppercase">contact us</strong></h3>
+  <div class="row mx-auto">
+    <div class="col-md-12 col-sm-12 col-lg-4 footer-contact text-left text-capitalize  p-3">
+      <h5 class="footer-title my-3">Doshi Engineering Works & Group Companies</h5>
+        <p class="text-capitalize text ">
+          <strong>ADDRESS</strong>:-Unit No.1 - J-208,202/2 MIDC Industrial Area, Boisar
+                Unit No.2 - G- 85, MIDC Industrial Area, Boisar,
+                Dist : Palghar
+        </p>
+    </div>
+    <div class="col-md-12 col-sm-12 col-lg-4 footer-contact text-left text-capitalize  p-3">
+      <h5 class="footer-title my-3">SSJ Engineers & Exporters Pvt.Ltd.</h5>
+      <p class="text-capitalize text ">
+        <strong>ADDRESS</strong>:-Unit No.1 - J-208,202/2 MIDC Industrial Area, Boisar
+                Unit No.2 - G- 85, MIDC Industrial Area, Boisar,
+                Dist : Palghar
+      </p>
+    </div>
+    <div class="col-md-12 col-sm-12 col-lg-4 footer-contact text-left text-capitalize  p-3">
+      <h5 class="footer-title my-3">Doshi Fabricators Pvt.Ltd.</h5>
+      <p class="text-capitalize text ">
+        <strong>ADDRESS</strong>:-Unit No.1 - J-208,202/2 MIDC Industrial Area, Boisar
+                Unit No.2 - G- 85, MIDC Industrial Area, Boisar,
+                Dist : Palghar
+      </p> 
+    </div>
+
+  </div>
+ </footer>
+ <script src="index.js"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+crossorigin="anonymous"></script>
+</body>
+
+</html>

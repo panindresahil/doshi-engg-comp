@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+    --mainPink: #ef7998;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --yellowTrans: rgba(249, 228, 148, 0.5);
+    --mainGrey: rgb(238, 238, 238);
+  }
+
+  body
+  {
+    font-family: 'Roboto Slab', serif;
+    background-color: #B3C6E4;
+    padding: 0px;
+    margin: 0px;
+  }
+  a
+  {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #F6376d;
+    font-size: 1.3rem;
+  }
+  p
+  {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    color: #263145;
+  }
+  li
+  {
+    color: #263145;
+  }
+
+  /* navbar */
+  .navbar
+  {
+    background-color: #DEEAFB;
+  }
+  
+  .navbar-toggler
+  {
+    outline: none !important;
+  }
+  .toggler-icon
+  {
+    font-size: 1.3rem;
+    color: var(--mainWhite);
+  }
+  .nav-item
+  {
+    transition: all .3s ease-in;
+    margin: 3px 3px;
+  }
+  .nav-item:hover{
+    background-color: var(--mainWhite);
+  }
+  .nav-link
+  {
+    transition: all 0.3s linear;
+  }
+  .nav-link:hover
+  {
+    color:#263145;
+  }
+  .max-height
+  {
+    background: url(../images/industrial_hero_3.jpg) fixed center repeat ;
+    min-height: 100vh;  
+  }
+  .section-heading
+  {
+    font-size: 2.5rem;
+    color: #F6376d;
+  }
+
+
+  /* about section */
+  #about
+  {
+    background-color:#DEEAFB;
+    color: var(--mainPink);
+  }
+  .btn
+  {
+    border: 0.2rem solid #F6376d;
+    color: #F6376d;
+    background-color:#263145;
+    transition: all .3s ease;
+  }
+  .btn:hover
+  {
+    background-color: #687c94;
+  }
+   .img-container
+  {
+    transition: all 0.3s ease;
+  } 
+  .img-container:hover
+  {
+    box-shadow: 0px 10px 15px #263145; 
+  }
+  /* services.html css  */
+  #more-about-info
+  {
+    background-color: var(--mainGrey);
+  }
+  .row-heading
+  {
+    background-color: #263145;
+    color: #F6376d;
+  }
+  .info-container
+  {
+    transition: all 0.5s ease-in-out;
+  }
+  .info-container:hover{
+    box-shadow: 0px 10px 15px #687c94;
+  }
+
+  /* products */
+  #products
+  {
+    background-color: #263145;
+  }
+  .btn-black
+  {
+    border: 0.2rem solid #F6376d;
+    color: #DEEAFB;
+    transition: all .3s ease;
+  }
+  .btn-black:hover
+  {
+    background-color: #687C94;
+    color: #F6376d;
+  }
+  .product-img
+  {
+    border-radius: 3.5rem;
+    width: 50%;
+    height: 100%;
+  }
+  .product-info
+  {
+    border-radius: 3.5rem;
+    width: 80%;
+    height: 100%;
+  } 
+  /* clients */
+  #clients
+  {
+    background-color: #B3C6E4;
+  }
+  .client-car
+  {
+    border-radius: 2rem ;
+  }
+
+  /* footer */
+  #contact-us
+  {
+    background-color: #263145;
+  }
+  .footer-title
+  {
+    font-size: 2.5rem;
+    color: #DEEAFB;
+  }
+  .text
+  {
+    color: #DEEAFB;
+  }
